@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "autogen-on-mac"
+version = "0.1.0"
+description = ""
+authors = ["Memorysaver <mfa1484@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11.6,<3.12"
+autogenstudio = "^0.0.27a0"
+litellm = {extras = ["proxy"], version = "^1.17.13"}
+
+[virtualenvs]
+in-project = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
