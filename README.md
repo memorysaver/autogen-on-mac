@@ -19,7 +19,7 @@ you can simply run `poetry install` to install all requred packages or do it on 
 pip install autogenstudio
 
 ## this pip is to proxy the local LLM and expose as OpenAI standard.
-pip install 'litellm[proxy]
+pip install 'litellm[proxy]'
 
 ```
 
